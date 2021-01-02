@@ -1,0 +1,45 @@
+:root {
+    /* color */
+
+    /* size */
+
+    /* font size */
+    --font-large: 18px;
+    --font-medium: 14px;
+    --font-small: 12px;
+    --font-micro: 10px;
+}
+
+* {
+    --border: 1px black solid;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    padding: 8px 12px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+}
+
+header .logo .fa-youtube {
+    color: #ff0000;
+}
+
+header .logo .title {
+    font-size: var(--font-large);
+    color: white;
+}
+
+header .icons {
+    color: white;
+    font-size: var(--font-medium);
+}
+
+header .icons .fa-search {
+    margin-right: 12px;
+}
